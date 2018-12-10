@@ -1,0 +1,24 @@
+{
+  "name": "RamSynth",
+  "version": "0.0.1",
+  "description": "Web Audio API Synthesizer",
+  "main": "index.js",
+  "author": "Tim Reynolds",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.27.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server",
+    "webpack": "webpack",
+    "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
+    "prod": "npm run webpack -- --env.mode production",
+    "dev": "npm run webpack-dev-server -- --env.mode development",
+    "prod:debug": "npm run debug -- --env.mode production",
+    "dev:debug": "npm run debug -- --env.mode development"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
