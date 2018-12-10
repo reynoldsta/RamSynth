@@ -9,9 +9,44 @@
   </head>
   <body>
     <div class="rs-Frame">
-      <div class="rs-Osc"></div>
+      <div class="rs-Osc">
+        <select>
+          <option value="sine">Saw</option>
+          <option value="square">Square</option>
+          <option value="sawtooth">Sawtooth</option>
+          <option value="triangle">Triangle</option>
+        </select>
+      </div>
       <div class="rs-MasterVolume"></div>
-      <div class="rs-Keyboard"></div>
+      <div class="rs-Keyboard">
+        <ul class="rs-Keys">
+          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
+          <li class="rs-Key rs-Key-black"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
+          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
+        </ul>
+      </div>
     </div>
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
