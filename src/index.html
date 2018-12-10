@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>RamSynth</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+  </head>
+  <body>
+    <div class="rs-Frame">
+      <div class="rs-Osc"></div>
+      <div class="rs-MasterVolume"></div>
+      <div class="rs-Keyboard"></div>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>
