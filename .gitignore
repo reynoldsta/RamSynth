@@ -94,8 +94,8 @@ typings/
 # Ignore all local history of files
 .history
 
+# End of https://www.gitignore.io/api/node,visualstudiocode
+
 ### Webpack ###
 # webpack default dist folder
 dist/
-
-# End of https://www.gitignore.io/api/node,visualstudiocode

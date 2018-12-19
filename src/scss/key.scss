@@ -1,11 +1,12 @@
 $rs-color-black: #000000;
 $rs-color-white: #ffffff;
+$rs-color-blue: #228dff;
 
 .rs-Key {
   display: inline-block;
   width: 3rem;
   height: 12rem;
-  border: 1px solid #228dff;
+  border: 1px solid $rs-color-blue;
   border-top: none;
   background-color: $rs-color-black;
 
@@ -40,11 +41,14 @@ $rs-color-white: #ffffff;
 
 @keyframes neon {
   from {
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
-      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    box-shadow: 0 0 10px $rs-color-white, 0 0 20px $rs-color-white,
+      0 0 30px $rs-color-white, 0 0 40px $rs-color-blue, 0 0 70px $rs-color-blue,
+      0 0 80px $rs-color-blue, 0 0 100px $rs-color-blue,
+      0 0 150px $rs-color-blue;
   }
   to {
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
-      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    box-shadow: 0 0 5px $rs-color-white, 0 0 10px $rs-color-white,
+      0 0 15px $rs-color-white, 0 0 20px $rs-color-blue, 0 0 35px $rs-color-blue,
+      0 0 40px $rs-color-blue, 0 0 50px $rs-color-blue, 0 0 75px $rs-color-blue;
   }
 }

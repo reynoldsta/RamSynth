@@ -10,41 +10,95 @@
   <body>
     <div class="rs-Frame">
       <div class="rs-Osc">
-        <select>
-          <option value="sine">Saw</option>
+        <select data-waveform-selector>
+          <option value="sine">Sine</option>
           <option value="square">Square</option>
           <option value="sawtooth">Sawtooth</option>
           <option value="triangle">Triangle</option>
         </select>
       </div>
-      <div class="rs-MasterVolume"></div>
+      <div class="rs-MasterVolume">
+        <input
+          data-master-volume
+          type="range"
+          min="0"
+          max="10"
+          value="5"
+          step="1"
+        />
+      </div>
       <div class="rs-Keyboard">
-        <ul class="rs-Keys">
-          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--middle"></li>
-          <li class="rs-Key rs-Key-black"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--right"></li>
-          <li class="rs-Key rs-Key-white rs-Key-white--left"></li>
+        <ul data-keys class="rs-Keys">
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--left"
+            data-note="c3"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="db3"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--middle"
+            data-note="d3"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="eb3"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--right"
+            data-note="e3"
+          ></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--left"
+            data-note="f3"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="gb3"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--middle"
+            data-note="g3"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="ab3"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--middle"
+            data-note="a3"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="bb3"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--right"
+            data-note="b3"
+          ></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--left"
+            data-note="c4"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="db4"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--middle"
+            data-note="d4"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="eb4"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--right"
+            data-note="e4"
+          ></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--left"
+            data-note="f4"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="gb4"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--middle"
+            data-note="g4"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="ab4"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--middle"
+            data-note="a4"
+          ></li>
+          <li class="rs-Key rs-Key-black" data-note="bb4"></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--right"
+            data-note="b4"
+          ></li>
+          <li
+            class="rs-Key rs-Key-white rs-Key-white--left"
+            data-note="c5"
+          ></li>
         </ul>
       </div>
     </div>
