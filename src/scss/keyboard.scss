@@ -1,3 +1,9 @@
 .rs-Keyboard {
-  flex: 1 1;
+  border-style: double;
+  border-color: $rs-color-blue;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px;
+  background-color: $rs-color-black;
+  margin-top: 10px;
 }

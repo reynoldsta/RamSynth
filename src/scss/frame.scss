@@ -1,6 +1,16 @@
 .rs-Frame {
-  width: 1024px;
-  height: 768px;
+  width: 900px;
+  padding: 10px;
+  height: fit-content;
   display: flex;
-  background-color: #36454f;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #000;
+
+  border: 3px solid $rs-color-blue;
+  border-radius: 25px;
+  @include scut-center-transform;
+
+  text-align: center;
 }

@@ -1,8 +1,15 @@
+@import "scut";
+@import "./shared.scss";
 @import "./frame";
 @import "./keyboard.scss";
 @import "./keys.scss";
 @import "./key.scss";
+@import "./masterVolume.scss";
+@import "./osc.scss";
+@import "./title.scss";
 
 body {
-  background-color: #aaaaaa;
+  background-color: #000;
+  font-family: "Courier New", Courier, monospace;
+  color: $rs-color-blue;
 }
