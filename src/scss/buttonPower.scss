@@ -1,0 +1,7 @@
+.rs-PowerButton {
+  background-color: $rs-color-gray;
+
+  &--on {
+    background-color: $rs-color-light-blue;
+  }
+}
